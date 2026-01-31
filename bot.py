@@ -151,6 +151,10 @@ async def send_daily_reminder(context: ContextTypes.DEFAULT_TYPE):
     logging.info(f"Daily reminder sent to {count} users.")
 
 # ==============================================================================
+# --- HOURLY SIGNAL ---
+# IDEA ---add a way to generate signal hourly
+
+# =============================================================================
 # 4. HANDLERS (ADMIN & MENU)
 # ==============================================================================
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
